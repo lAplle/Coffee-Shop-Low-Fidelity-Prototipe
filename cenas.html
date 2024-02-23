@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cena | Cafetería Universitaria</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Cena | Cafetería Universitaria</h1>
+            <a href="/index.html" class="btn" id="btnRegresar"
+                >Regresar al Inicio</a
+            >
+
+            <div class="beverage">
+                <input
+                    type="checkbox"
+                    id="Enchiladas_Suizas"
+                    name="Enchiladas_Suizas"
+                />
+                <label for="Enchiladas_Suizas">Enchiladas Suizas</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$48</span>
+            </div>
+
+            <div class="beverage">
+                <input type="checkbox" id="Fruta" name="Fruta" />
+                <label for="Fruta">Fruta</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$15</span>
+            </div>
+
+            <div class="beverage">
+                <input
+                    type="checkbox"
+                    id="Molletes_Mantequilla"
+                    name="Molletes_Mantequilla"
+                />
+                <label for="Molletes_Mantequilla"
+                    >Molletes con Mantequilla</label
+                >
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$28</span>
+            </div>
+        </div>
+        <a href="#" class="btn" id="botonAnadir" onclick="botonAdd()"
+            >Agregar a la Bandeja</a
+        >
+        <script src="script.js"></script>
+    </body>
+</html>

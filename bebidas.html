@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bebidas | Cafetería Universitaria</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Bebidas | Cafetería Universitaria</h1>
+            <a href="/index.html" class="btn" id="btnRegresar"
+                >Regresar al Inicio</a
+            >
+
+            <div class="beverage">
+                <input type="checkbox" id="cafe" name="cafe" />
+                <label for="cafe">Café</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$16</span>
+            </div>
+
+            <div class="beverage">
+                <input type="checkbox" id="chocomilk" name="chocomilk" />
+                <label for="chocomilk">Chocomilk</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$20</span>
+            </div>
+
+            <div class="beverage">
+                <input type="checkbox" id="jugo_verde" name="jugo_verde" />
+                <label for="jugo_verde">Jugo verde</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$18</span>
+            </div>
+
+            <div class="beverage">
+                <input
+                    type="checkbox"
+                    id="licuado_frutas"
+                    name="licuado_frutas"
+                />
+                <label for="licuado_frutas">Licuado de frutas</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$22</span>
+            </div>
+
+            <div class="beverage">
+                <input type="checkbox" id="refresco" name="refresco" />
+                <label for="refresco">Refresco</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$15</span>
+            </div>
+
+            <div class="beverage">
+                <input type="checkbox" id="te" name="te" />
+                <label for="te">Té</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$14</span>
+            </div>
+
+            <div class="beverage">
+                <input type="checkbox" id="vaso_leche" name="vaso_leche" />
+                <label for="vaso_leche">Vaso de Leche</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$12</span>
+            </div>
+
+            <a href="#" class="btn" onclick="botonAdd()"
+                >Agregar a la Bandeja</a
+            >
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Desayunos | Cafetería Universitaria</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Desayunos | Cafetería Universitaria</h1>
+            <a href="/index.html" id="btnRegresar" class="btn"
+                >Regresar al Inicio</a
+            >
+
+            <div class="beverage">
+                <input type="checkbox" id="Gelatina" name="Gelatina" />
+                <label for="Gelatina">Gelatina</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$10</span>
+            </div>
+
+            <div class="beverage">
+                <input
+                    type="checkbox"
+                    id="Molletes con mantequilla"
+                    name="Molletes con mantequilla"
+                />
+                <label for="Molletes con mantequilla"
+                    >Molletes con mantequilla</label
+                >
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$35</span>
+            </div>
+
+            <div class="beverage">
+                <input
+                    type="checkbox"
+                    id="Orden_de_huevos"
+                    name="Orden_de_huevos"
+                />
+                <label for="Orden de huevos">Orden de huevos</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$49</span>
+            </div>
+
+            <div class="beverage">
+                <input
+                    type="checkbox"
+                    id="Sandwich_Panela"
+                    name="Sandwich_Panela"
+                />
+                <label for="Sandwich_Panela">Sandwich de panela</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$23</span>
+            </div>
+
+            <div class="beverage">
+                <input type="checkbox" id="Fruta" name="Fruta" />
+                <label for="Fruta">Fruta</label>
+                <input type="number" min="0" value="0" />
+
+                <span class="price">$15</span>
+            </div>
+            <a href="#" class="btn" onclick="botonAdd()"
+                >Agregar a la Bandeja</a
+            >
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

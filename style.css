@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.beverage {
+    margin-bottom: 10px;
+}
+.beverage label {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.beverage input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+.beverage input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+.price {
+    color: #666;
+    font-size: 16px;
+}
+.btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #2b662e;
+}
+#btnRegresar:hover {
+    background-color: #ff2525;
+}
+#btnRegresar {
+    background-color: rgb(255, 137, 137);
+}
