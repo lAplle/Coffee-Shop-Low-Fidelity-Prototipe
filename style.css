@@ -62,3 +62,34 @@ h1 {
 #btnRegresar {
     background-color: rgb(255, 137, 137);
 }
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+main {
+    padding: 20px;
+}
+nav ul li a:hover {
+    background-color: #006f93;
+}
